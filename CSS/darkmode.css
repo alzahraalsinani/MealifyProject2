@@ -1,0 +1,135 @@
+body:has(#toggle-btn:checked) {
+    --primary-color-dark: #c17e1f;
+    --secondary-color: #000000;
+    --main-light-bg: #252525;
+    --accent-color: #adadad;
+    --bg-icon: #ffffff4d;
+    --text-color: #ffffff;
+}
+
+
+
+.moon {
+    display: inline-block;
+}
+
+.sun {
+    display: none;
+}
+
+body:has(#toggle-btn:checked) .moon {
+    display: none;
+}
+
+body:has(#toggle-btn:checked) .sun {
+    display: inline-block;
+    color: var(--text-color);
+}
+
+
+
+
+body:has(#toggle-btn:checked) nav {
+    background-color: var(--secondary-color) !important;
+}
+
+body:has(#toggle-btn:checked) nav .logo h2,
+body:has(#toggle-btn:checked) nav ul li a {
+    color: var(--text-color) !important;
+}
+
+
+body:has(#toggle-btn:checked) .chefs,
+body:has(#toggle-btn:checked) .contact-section {
+    background-color: var(--main-light-bg) !important;
+}
+
+
+body:has(#toggle-btn:checked) .header h2,
+body:has(#toggle-btn:checked) .main-title {
+    color: var(--text-color) !important;
+}
+
+body:has(#toggle-btn:checked) .header h3,
+body:has(#toggle-btn:checked) .sub-title {
+    color: var(--accent-color) !important;
+}
+
+
+body:has(#toggle-btn:checked) .card {
+    background-color: #171717 !important;
+    color: var(--text-color) !important;
+}
+
+body:has(#toggle-btn:checked) .card .text h3,
+body:has(#toggle-btn:checked) .card .text p,
+body:has(#toggle-btn:checked) .card .text span {
+    color: var(--text-color) !important;
+}
+
+
+body:has(#toggle-btn:checked) .solid {
+    background: var(--bg-icon) !important;
+}
+
+
+body:has(#toggle-btn:checked) .info-card {
+    background-color: #171717 !important;
+}
+
+body:has(#toggle-btn:checked) .details h3,
+body:has(#toggle-btn:checked) .details p {
+    color: var(--text-color) !important;
+}
+
+body:has(#toggle-btn:checked) .message-form {
+    background-color: #171717 !important;
+}
+
+body:has(#toggle-btn:checked) .message-form input,
+body:has(#toggle-btn:checked) .message-form textarea {
+    background-color: #252525;
+    color: white;
+    border-color: #444;
+}
+
+
+body:has(#toggle-btn:checked) .header h2 span,
+body:has(#toggle-btn:checked) .main-title span,
+body:has(#toggle-btn:checked) nav .logo h2::after,
+body:has(#toggle-btn:checked) .send-btn {
+    color: var(--primary-color-dark) !important;
+}
+
+body:has(#toggle-btn:checked) .send-btn {
+    background-color: var(--primary-color-dark) !important;
+    color: white !important;
+}
+
+
+body:has(#toggle-btn:checked) .message-form input:focus,
+body:has(#toggle-btn:checked) .message-form textarea:focus {
+    border: 2px solid var(--primary-color-dark) !important;
+}
+
+body:has(#toggle-btn:checked) .info-card .icon-box {
+    background-color: var(--primary-color-dark) !important;
+    color: var(--text-color) !important;
+}
+
+body:has(#toggle-btn:checked) .bg-section {
+    background-color: #1a1a1a !important;
+}
+
+body:has(#toggle-btn:checked) .card {
+    background-color: #252525 !important;
+    color: white !important;
+}
+
+body:has(#toggle-btn:checked) .main-title {
+    color: white !important;
+}
+
+body:has(#toggle-btn:checked) .text-muted {
+    color: #adadad !important;
+}
